@@ -32,7 +32,7 @@ cacheSolve <- function(x, ...) {
   }
   
   d <- x$get()
-  r <- slove(d)
+  r <- solve(d)
   x$setinverse(r)
   r
 }
